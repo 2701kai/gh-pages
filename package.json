@@ -1,0 +1,26 @@
+"scripts": {
+  // "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch" 
+  // for tailwind
+  
+  // "predeploy": "npm run build", 
+  // for react,
+  
+  // "deploy": "gh-pages -d build" 
+  // for react
+
+  // "dev": "vite",
+  
+  // "deploy": "gh-pages -d dist" 
+  // for vue
+}, 
+
+"scripts": {  
+  "deploy": "gh-pages -d dist"
+  // dist is the folder where the build files are stored - change it to build if you are using react - or to any folder of your taste, it will be created automatically.
+},
+
+{
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+  }
+}
